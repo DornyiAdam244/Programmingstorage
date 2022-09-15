@@ -1,7 +1,3 @@
-from codecs import xmlcharrefreplace_errors
-from tkinter import Y
-
-
 print('Szia uram')
 # ez egy comment    
 """
@@ -43,3 +39,15 @@ myvar = "Pista"
 my_var = "Pista"
 myVar = "Pista"
 myVar2 = "Béla"
+"""
+2myvar = "Béla"
+my-var = "Béla"
+my var = "Béla"
+"""
+#ezek mind rosszak
+
+# Több szóból álló változók elnevezése:
+# Az első kisbetűvel kezdődik, minden szó pedig nagybetűvel.
+# pl.:
+ezEgyValtozo = 5
+ 
