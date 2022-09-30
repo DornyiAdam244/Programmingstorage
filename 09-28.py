@@ -41,7 +41,7 @@ for i in range(1,11):
 a szám 1500-2700 között van és osztható 7-tel, valamint az 5 többszöröse. Írjuk ki, hogy
 a helyes vagy helytelen volt-e az input.
 """
-
+"""
 x = int(input("Szám: "))
 if (x>=1500 and x<=2700) and (not x%7 and not x%5):
     print("A beolvasott szám megfelel a követelményeknek!")
@@ -50,7 +50,8 @@ else:
 
 # Írd át a fenti programot, hogy rossz input esetén kérje újra a számot, mindaddig
 # amíg helyes nem lesz!
-
+"""
+"""
 x = int(input("Szám: "))
 while not((x>=1500 and x<=2700) and ( x%7==0 and x%5==0)):
     print("A beolvasott szám nem felel meg a követelményeknek!")
@@ -59,7 +60,7 @@ while not((x>=1500 and x<=2700) and ( x%7==0 and x%5==0)):
 else: # nem kötelező else-t használni, lehet nélküle is
     print("A beolvasott szám megfelel a követelményeknek!")
 
-
+"""
 # 4. feladat:
 
 """
@@ -74,6 +75,7 @@ Készíts programot, amely kirajzolja az alábbi alakzatot:
 **
 *
 """
+
 n=5
 for i in range(n): # ez a háromszög teteje
     for j in range(i):
@@ -84,6 +86,7 @@ for i in range(n,0,-1): # n-től 0-ig, visszafelé számolva
     for j in range(i):
         print("*", end="")
     print('')
+
 
 
 # 5. feladat
