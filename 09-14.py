@@ -114,7 +114,7 @@ print('Aposztrófon belül simán lehet " jelet írni.')
 # Két féle bool típus létezik: True és False
 # Pl.:
 print(5<3)
-print(10=10)
+print(10==10)
 print(6>=5)
 
 # Operátorok

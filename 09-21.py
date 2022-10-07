@@ -95,7 +95,7 @@ print(x)
 
 """
 
-### Elágazások (Szelekció) ###
+### Elágazások () ###
 
 
 
