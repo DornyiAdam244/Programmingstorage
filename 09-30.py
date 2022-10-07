@@ -75,6 +75,9 @@ Ha több változó van akkor kötelezően ()-be teszem(sorolom fel).
 # pl. Alma-amla
 
 
+
+
+
 sztring=input("Adj meg egy szöveget: ") # s = sztring
 print("A sztring: %s" %sztring)
 # Újdonság: a sztring hosszát le tudom kérdezni egy len() függvénnyel, ő egy számot ad vissza 
@@ -82,4 +85,4 @@ print("A sztring: %s" %sztring)
 print(len(sztring))
 for kar in range(len(sztring)-1,-1,-1):
     print(sztring[kar], end="")
-print("\n")
+print("\n")          
